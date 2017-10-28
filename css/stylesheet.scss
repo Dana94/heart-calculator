@@ -1,4 +1,5 @@
 $body: #FF54BC;
+$text: white;
 
 
 /*Spource: https://css-tricks.com/examples/ShapesOfCSS/*/
@@ -8,8 +9,8 @@ $body: #FF54BC;
     height: 180px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 379px;
-    transform: scale(5);
+    margin-top: 474px;
+    transform: scale(6);
 }
 #heart:before,
 #heart:after {
@@ -47,7 +48,6 @@ $body: #FF54BC;
             transform-origin :100% 100%;
 }
 
-
 input{
     width: 68px;
     height: 5px;
@@ -61,8 +61,23 @@ input{
 .text{
     font-size: .5rem;
     font-weight: 800;
-    color: white;
+    color: $text;
     top: 10px;
     position: relative;
     z-index: 2
 }
+
+.btn{
+    font-size: 3px !important;
+    position: relative;
+    z-index: 2;
+    padding: 1px !important;
+    width: 8px !important;
+    border: 1px solid black !important;
+    border-radius: 50%;
+    color: $text;
+}
+.buttons{
+    margin-top: 19px;
+}
+
