@@ -1,5 +1,13 @@
 $body: #FF54BC;
 $text: white;
+$red: #FF004D;
+$yellow: #EADF00;
+$purple: #D536FF;
+$blue: #36BDFF;
+$orange: #FF6700;
+$green: #59FF7D;
+$pink-purple: #E500B9;
+
 
 
 /*Spource: https://css-tricks.com/examples/ShapesOfCSS/*/
@@ -76,8 +84,37 @@ input{
     border: 1px solid black !important;
     border-radius: 50%;
     color: $text;
+    //transform: scale(1.7);
 }
 .buttons{
     margin-top: 19px;
+}
+
+#ce{
+    background-color: $red;
+}
+
+#seven{
+    background-color: $yellow;
+}
+
+#eight{
+    background-color: $purple;
+}
+
+#nine{
+    background-color: $blue;
+}
+
+#div{
+    background-color: $orange;
+}
+
+#mrc{
+    background-color: $green;
+}
+
+#on{
+    background-color: $pink-purple;
 }
 

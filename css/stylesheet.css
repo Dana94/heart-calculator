@@ -73,4 +73,25 @@ input {
 .buttons {
   margin-top: 19px; }
 
+#ce {
+  background-color: #FF004D; }
+
+#seven {
+  background-color: #EADF00; }
+
+#eight {
+  background-color: #D536FF; }
+
+#nine {
+  background-color: #36BDFF; }
+
+#div {
+  background-color: #FF6700; }
+
+#mrc {
+  background-color: #59FF7D; }
+
+#on {
+  background-color: #E500B9; }
+
 /*# sourceMappingURL=stylesheet.css.map */
