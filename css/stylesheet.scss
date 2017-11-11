@@ -88,13 +88,14 @@ input{
 }
 .buttons{
     margin-top: 19px;
+    
 }
 
-#ce{
+#ce, #five{
     background-color: $red;
 }
 
-#seven{
+#seven, #mul{
     background-color: $yellow;
 }
 
@@ -102,19 +103,23 @@ input{
     background-color: $purple;
 }
 
-#nine{
+#nine, #memory-minus{
     background-color: $blue;
 }
 
-#div{
+#div, #sqrt, #six{
     background-color: $orange;
 }
 
-#mrc{
+#mrc, #off{
     background-color: $green;
 }
 
 #on{
     background-color: $pink-purple;
+}
+
+.top-row{
+    margin-bottom: -11px;
 }
 
