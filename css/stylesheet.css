@@ -73,25 +73,28 @@ input {
 .buttons {
   margin-top: 19px; }
 
-#ce {
+#ce, #five {
   background-color: #FF004D; }
 
-#seven {
+#seven, #mul {
   background-color: #EADF00; }
 
 #eight {
   background-color: #D536FF; }
 
-#nine {
+#nine, #memory-minus {
   background-color: #36BDFF; }
 
-#div {
+#div, #sqrt, #six {
   background-color: #FF6700; }
 
-#mrc {
+#mrc, #off {
   background-color: #59FF7D; }
 
 #on {
   background-color: #E500B9; }
+
+.top-row {
+  margin-bottom: -11px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
