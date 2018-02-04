@@ -1,4 +1,4 @@
-/*Spource: https://css-tricks.com/examples/ShapesOfCSS/*/
+/*Source: https://css-tricks.com/examples/ShapesOfCSS/*/
 #heart {
   position: relative;
   width: 100px;
@@ -43,6 +43,7 @@
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%; }
 
+/******************************/
 input {
   width: 68px;
   height: 5px;
@@ -73,28 +74,28 @@ input {
 .buttons {
   margin-top: 19px; }
 
-#ce, #five {
+#ce, #five, #memory-plus {
   background-color: #FF004D; }
 
-#seven, #mul {
+#seven, #mul, #decimal {
   background-color: #EADF00; }
 
-#eight {
+#eight, #two, #sub {
   background-color: #D536FF; }
 
-#nine, #memory-minus {
+#nine, #memory-minus, #zero {
   background-color: #36BDFF; }
 
-#div, #sqrt, #six {
+#div, #sqrt, #six, #one {
   background-color: #FF6700; }
 
-#mrc, #off {
+#mrc, #off, #three {
   background-color: #59FF7D; }
 
-#on {
+#on, #equals {
   background-color: #E500B9; }
 
-.top-row {
-  margin-bottom: -11px; }
+.buttons .col-xs-12 {
+  margin-bottom: -1rem; }
 
 /*# sourceMappingURL=stylesheet.css.map */

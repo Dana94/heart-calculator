@@ -10,7 +10,7 @@ $pink-purple: #E500B9;
 
 
 
-/*Spource: https://css-tricks.com/examples/ShapesOfCSS/*/
+/*Source: https://css-tricks.com/examples/ShapesOfCSS/*/
 #heart {
     position: relative;
     width: 100px;
@@ -56,6 +56,9 @@ $pink-purple: #E500B9;
             transform-origin :100% 100%;
 }
 
+
+/******************************/
+
 input{
     width: 68px;
     height: 5px;
@@ -91,36 +94,36 @@ input{
     
 }
 
-#ce, #five{
+#ce, #five, #memory-plus{
     background-color: $red;
 }
 
-#seven, #mul{
+#seven, #mul, #decimal{
     background-color: $yellow;
 }
 
-#eight{
+#eight, #two, #sub{
     background-color: $purple;
 }
 
-#nine, #memory-minus{
+#nine, #memory-minus, #zero{
     background-color: $blue;
 }
 
-#div, #sqrt, #six{
+#div, #sqrt, #six, #one{
     background-color: $orange;
 }
 
-#mrc, #off{
+#mrc, #off, #three{
     background-color: $green;
 }
 
-#on{
+#on, #equals{
     background-color: $pink-purple;
 }
 
-.top-row{
-    margin-bottom: -11px;
+.buttons .col-xs-12{
+    margin-bottom: -1rem;
 }
 
 
